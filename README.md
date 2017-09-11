@@ -1,6 +1,6 @@
 # oTree-fishery
 
-This is a fork of (otree-core)[https://github.com/oTree-org/otree-core] which is customized for the fishery simulator game.
+This is a fork of [otree-core](https://github.com/oTree-org/otree-core) which is customized for the fishery simulator game.
 
 ## References from the main repo
 
