@@ -1,11 +1,10 @@
 {% extends "otree/BaseAdmin.html" %}
 
-{% block title %}
-    {{ title }}
-{% endblock %}
 
-{% block content %}
-<div class="row">
-    If this shows up instead of the default demo page, the installation is successful.
-</div>
-{% endblock %}
+{% block internal_scripts %}
+    {{ block.super }}
+    <script type="text/javascript">
+        window.location.assign('/rooms')
+    </script>
+
+ {% endblock %}
