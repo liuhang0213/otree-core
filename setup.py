@@ -7,7 +7,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 version = __import__('otree').get_version()
 
-with open('README.rst', encoding='utf-8') as f:
+with open('README.md', encoding='utf-8') as f:
     README = f.read()
 
 with open('requirements.txt', encoding='utf-8') as f:
