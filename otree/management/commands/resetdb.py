@@ -58,10 +58,10 @@ class Command(BaseCommand):
     def _confirm(self):
         self.stdout.write(
             "This will delete and recreate your database. ")
-        answer = six.moves.input("Proceed? (y or n): ")
-        if answer:
-            return answer[0].lower() == 'y'
-        return False
+        # answer = six.moves.input("Proceed? (y or n): ")
+        # if answer:
+            # return answer[0].lower() == 'y'
+        return True
 
     def _drop_table_stmt(self, dbconf):
         engine = dbconf["ENGINE"]
